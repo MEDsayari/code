@@ -1,0 +1,133 @@
+/* Variables */
+:root {
+    --primary-color: #4285f4;
+    --secondary-color: #db2222;
+    --tertiary-color: #10a82e;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --font-size: 16px;
+    --border-radius: 5px;
+    --padding: 10px;
+  }
+  
+  /* Form container */
+  .form-container {
+    width: 70%;
+    margin: auto;
+    padding: var(--padding);
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 4px var(--shadow-color);
+    
+  }
+  
+  /* Input fields */
+  .form-container input[type="text"],
+  .form-container select {
+    width: 60%;
+    padding: var(--padding);
+    margin-bottom: 20px;
+    border: 1px solid var(--tertiary-color);
+    border-radius: var(--border-radius);
+    font-size: var(--font-size);
+  }
+  
+  .options-type {
+    padding: 10px;
+  }
+  /* Options container */
+  .options-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Option input */
+  .option-input {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .option-input input[type="text"] {
+    width: calc(100% - 40px);
+    padding: var(--padding);
+    margin-right: 10px;
+    border: 1px solid #99146d;
+    border-radius: var(--border-radius);
+    font-size: var(--font-size);
+  }
+  
+  /* Add option button */
+  .add-option-button {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 100px;
+    background-color: #b789e6eb;
+    color: #ffffff;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: var(--font-size);
+    cursor: pointer;
+  }
+  
+  .question-item {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #94eea4eb;
+  }
+  
+  .question-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .question-predefined {
+    background-color: #f6e9e9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  /* Answer */
+  .answer {
+    margin-bottom: 10px;
+  }
+  
+  /* Options */
+  .options {
+    margin-left: 20px;
+  }
+  
+  /* Option item */
+  .option-item {
+    margin-bottom: 5px;
+  }
+  .option-inputtext{
+    margin-left: 10px;
+  }
+  
+  .option-input[type="checkbox"] {
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  
+  /* Option label */
+  .option-label {
+    vertical-align: middle;
+  }
+  
+  /* Submit label */
+  .submit-label {
+    display: inline-block;
+    background-color: #10a82e;
+    color: rgb(247, 244, 244); /* White text */
+   margin-left: 200px;
+    padding: 12px 24px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    border: none; /* Remove borders */
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    text-align: center; /* Center the text within the button */
+  }
+  
